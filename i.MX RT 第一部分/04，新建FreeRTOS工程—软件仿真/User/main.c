@@ -26,7 +26,7 @@
 */
 /*
 * 注意事项：1、该工程使用软件仿真，debug需选择 Ude Simulator
-*           2、在Target选项卡里面把晶振Xtal(Mhz)的值改为50，默认是12，
+*           2、在Target选项卡里面把晶振Xtal(Mhz)的值改为25，默认是12，
 *              改成25是为了跟system_ARMCM7.c中定义的__SYSTEM_CLOCK相同，确保仿真的时候时钟一致
 */
 int main(void)
