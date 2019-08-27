@@ -1,6 +1,6 @@
 
 /*
- * Auto generated Run-Time-Environment Component Configuration File
+ * Auto generated Run-Time-Environment Configuration File
  *      *** Do not modify ! ***
  *
  * Project: 'Fire_FreeRTOS' 
@@ -14,7 +14,8 @@
 /*
  * Define the Device Header File: 
  */
-#define CMSIS_device_header "ARMCM3.h"
+#define CMSIS_device_header "ARMCM7.h"
+
 
 
 #endif /* RTE_COMPONENTS_H */

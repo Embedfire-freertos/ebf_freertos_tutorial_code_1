@@ -1,6 +1,6 @@
 #include "FreeRTOS.h"
 #include "task.h"
-#include "ARMCM3.h"
+#include "ARMCM7.h"
 
 /*
 *************************************************************************
@@ -12,7 +12,6 @@
 
 
 /* 
- * 参考资料《STM32F10xxx Cortex-M3 programming manual》4.4.3，百度搜索“PM0056”即可找到这个文档
  * 在Cortex-M中，内核外设SCB中SHPR3寄存器用于设置SysTick和PendSV的异常优先级
  * System handler priority register 3 (SCB_SHPR3) SCB_SHPR3：0xE000 ED20
  * Bits 31:24 PRI_15[7:0]: Priority of system handler 15, SysTick exception 

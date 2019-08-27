@@ -9,7 +9,7 @@
   ************************************************************************
   * @attention
   *
-  * 实验平台:野火 STM32 系列 开发板
+  * 实验平台:野火 i.MX RT 系列 开发板
   * 
   * 官网    :www.embedfire.com  
   * 论坛    :http://www.firebbs.cn
@@ -26,8 +26,8 @@
 */
 /*
 * 注意事项：1、该工程使用软件仿真，debug需选择 Ude Simulator
-*           2、在Target选项卡里面把晶振Xtal(Mhz)的值改为25，默认是12，
-*              改成25是为了跟system_ARMCM3.c中定义的__SYSTEM_CLOCK相同，确保仿真的时候时钟一致
+*           2、在Target选项卡里面把晶振Xtal(Mhz)的值改为50，默认是12，
+*              改成25是为了跟system_ARMCM7.c中定义的__SYSTEM_CLOCK相同，确保仿真的时候时钟一致
 */
 int main(void)
 {	

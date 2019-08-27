@@ -1,6 +1,6 @@
 #include "FreeRTOS.h"
 #include "task.h"
-#include "ARMCM3.h"
+#include "ARMCM7.h"
 #include "list.h"
 
 
@@ -110,7 +110,7 @@ BaseType_t xPortStartScheduler( void )
 *************************************************************************
 */
 /*
- * 参考资料《STM32F10xxx Cortex-M3 programming manual》4.4.3，百度搜索“PM0056”即可找到这个文档
+
  * 在Cortex-M中，内核外设SCB的地址范围为：0xE000ED00-0xE000ED3F
  * 0xE000ED008为SCB外设中SCB_VTOR这个寄存器的地址，里面存放的是向量表的起始地址，即MSP的地址
  */
